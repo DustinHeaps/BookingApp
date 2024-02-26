@@ -10,6 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Vacations",
   description: "Find your dream vacation",
+
+  
 };
 
 export default async function RootLayout({

@@ -13,6 +13,7 @@ const LatestDestinationCard = ({ hotel }: Props) => {
     >
       <div className='h-[300px]'>
         <img
+          alt={hotel.name}
           src={hotel.imageUrls[0]}
           className='w-full h-full object-cover object-center'
         />

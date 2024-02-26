@@ -74,7 +74,7 @@ const ImagesSection = () => {
           <div className='grid grid-cols-6 gap-4'>
             {existingImageUrls.map((url, i) => (
               <div key={i} className='relative group'>
-                <img src={url} className='min-h-full object-cover' />
+                <img    alt="hotel image" src={url} className='min-h-full object-cover' />
                 <button
                   onClick={(event) => handleDelete(event, url)}
                   className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 text-white'
